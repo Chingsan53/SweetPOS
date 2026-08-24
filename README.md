@@ -81,3 +81,44 @@ If you are developing a production application, we recommend using TypeScript wi
 1 Latte
 
 [READY]
+
+#### Customer Frontend
+
+##### Customer Ordering
+
+Menu
+
+- Donuts
+- Drinks
+- Food
+
+Customize Item
+
+Cart
+
+Customer Information
+
+Checkout
+
+### Devices
+
+#### Customer Frontend
+
+- QR-code ordering
+- Online ordering website
+- Self-service kiosk
+- Customer tablet
+
+#### Kitchen
+
+- Tablet showing order detail and note
+- Flow: New -> Preparing -> Ready -> Completed
+
+##### In this React POS, there are 3 applications/interfaces sharing the same backend.
+
+##### Key Design:
+
+- Cashier = transaction-focused
+- Kitchen = production-focused
+- Customer = ordering-focused
+- Admin = management-focused
