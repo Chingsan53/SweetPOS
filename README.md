@@ -58,9 +58,9 @@ If you are developing a production application, we recommend using TypeScript wi
 
 2 min ago
 
-1 Glazed
-1 Chocolate
-1 Coffee
+1 Glazed\
+1 Chocolate\
+1 Coffee\
 
 [START]
 
@@ -68,8 +68,8 @@ If you are developing a production application, we recommend using TypeScript wi
 
 5 min ago
 
-1 Ham Egg
-2 Coffee
+1 Ham Egg\
+2 Coffee\
 
 [READY]
 
@@ -77,8 +77,8 @@ If you are developing a production application, we recommend using TypeScript wi
 
 8 min ago
 
-3 Glazed
-1 Latte
+3 Glazed\
+1 Latte\
 
 [READY]
 
@@ -116,7 +116,7 @@ Checkout
 
 ##### In this React POS, there are 3 applications/interfaces sharing the same backend.
 
-##### Key Design:
+### Key Design:
 
 - Cashier = transaction-focused
 - Kitchen = production-focused
