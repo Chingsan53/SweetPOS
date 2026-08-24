@@ -14,4 +14,70 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
 # SweetPOS
+
+## Plans
+
+#### Cashier POS
+
+##### Order Type
+
+- Dine-in
+- Takeout
+- Pickup
+
+##### Product Categories
+
+- Donuts
+- Drinks
+- Sandwiches
+- Combos
+
+##### Product Grid
+
+-
+
+##### Current Order
+
+- 2x Glazed Donut
+- 1x Coffee
+- 1x Sandwich
+
+##### Payment
+
+- Cash
+- Card
+- Other
+
+#### Kitchen Display System (KDS)
+
+##### Kitchen Display
+
+##### ORDER #1024
+
+2 min ago
+
+1 Glazed
+1 Chocolate
+1 Coffee
+
+[START]
+
+##### ORDER #1023
+
+5 min ago
+
+1 Ham Egg
+2 Coffee
+
+[READY]
+
+##### ORDER #1022
+
+8 min ago
+
+3 Glazed
+1 Latte
+
+[READY]
