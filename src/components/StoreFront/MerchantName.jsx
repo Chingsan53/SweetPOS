@@ -1,7 +1,7 @@
 function MerchantName() {
   return (
     <div>
-      <div className="text-2xl">Daily Donuts</div>
+      <div className="text-3xl font-bold ">Daily Donuts</div>
     </div>
   );
 }

@@ -60,7 +60,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 1 Glazed\
 1 Chocolate\
-1 Coffee\
+1 Coffee
 
 [START]
 
@@ -69,7 +69,7 @@ If you are developing a production application, we recommend using TypeScript wi
 5 min ago
 
 1 Ham Egg\
-2 Coffee\
+2 Coffee
 
 [READY]
 
@@ -78,7 +78,7 @@ If you are developing a production application, we recommend using TypeScript wi
 8 min ago
 
 3 Glazed\
-1 Latte\
+1 Latte
 
 [READY]
 
@@ -122,3 +122,35 @@ Checkout
 - Kitchen = production-focused
 - Customer = ordering-focused
 - Admin = management-focused
+
+### Frontend Application
+
+3 different webapp for each
+
+- a tablet for cashier
+- a tablet for kitchen
+- Mobile device (customer)
+
+### Backend
+
+#### PostgreSQL instead of Firebase
+
+- A POS has a lot of relational data
+
+#### Example of relational data
+
+##### Product
+
+- Category
+- Modifier Groups
+- Inventory
+- Pricing
+
+##### Order
+
+- Customer
+- Table
+- Employee
+- Order Items
+- Discounts
+- Payments

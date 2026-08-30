@@ -1,0 +1,23 @@
+[
+  {
+    "id": "donut-001",
+    "name": "Glazed Donut",
+    "price": 1.5,
+    "category": "Donuts",
+    "image": "/images/glazed-donut.jpg"
+  },
+  {
+    "id": "donut-002",
+    "name": "Chocolate Donut",
+    "price": 1.75,
+    "category": "Donuts",
+    "image": "/images/chocolate-donut.jpg"
+  },
+  {
+    "id": "coffee-001",
+    "name": "Iced Coffee",
+    "price": 3.5,
+    "category": "Drinks",
+    "image": "/images/iced-coffee.jpg"
+  }
+]
