@@ -6,23 +6,26 @@ import MerchantName from "../StoreFront/MerchantName";
 
 function Header() {
   return (
-    <header className="w-full h-16 flex items-center justify-between px-6">
-      {/* Page title */}
-      <div className="flex items-center gap-2">
-        <Logo />
-        <MerchantName />
-      </div>
+    <header className="w-full h-16 flex flex-col items-center justify-between px-6">
+      <div>Point of Sale</div>
+      <div className="w-full flex items-center justify-between px-6">
+        {/* Page title */}
+        {/* <div className="flex items-center gap-2">
+          <Logo />
+          <MerchantName />
+        </div> */}
 
-      {/* User Menus */}
+        {/* User Menus */}
 
-      <HeaderMenu />
+        <HeaderMenu />
 
-      {/* Notification */}
-      <div className="flex flex-row gap-2">
-        {/* User menu */}
-        <CustomerProfile />
-        {/* Cart */}
-        <CartLogo />
+        {/* Notification */}
+        <div className="flex flex-row gap-2">
+          {/* User menu */}
+          <CustomerProfile />
+          {/* Cart */}
+          <CartLogo />
+        </div>
       </div>
     </header>
   );
