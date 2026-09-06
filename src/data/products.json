@@ -1,38 +1,86 @@
 [
   {
     "id": 1,
-    "name": "Glazed Donut",
-    "price": 1.99,
+    "name": "Ham and Cheese Croissant",
+    "category": "pastries",
+    "price": 4.75,
     "image": "https://placehold.co/600x400"
   },
   {
     "id": 2,
-    "name": "Chocolate Donut",
-    "price": 2.49,
+    "name": "Ham and Cheese Jalapeno Croissant",
+    "category": "pastries",
+    "price": 5.0,
     "image": "https://placehold.co/600x400"
   },
   {
     "id": 3,
-    "name": "Strawberry Donut",
-    "price": 2.49,
+    "name": "Plain Croissant",
+    "category": "pastries",
+    "price": 3.0,
     "image": "https://placehold.co/600x400"
   },
   {
     "id": 4,
-    "name": "Strawberry Donut",
-    "price": 2.49,
+    "name": "Chocolate Croissant",
+    "category": "pastries",
+    "price": 3.0,
     "image": "https://placehold.co/600x400"
   },
   {
     "id": 5,
-    "name": "Strawberry Donut",
-    "price": 2.49,
+    "name": "Strawberry Cream Cheese Croissant",
+    "category": "pastries",
+    "price": 3.0,
     "image": "https://placehold.co/600x400"
   },
   {
     "id": 6,
-    "name": "Strawberry Donut",
-    "price": 2.49,
+    "name": "Cream Cheese Croissant",
+    "category": "pastries",
+    "price": 3.0,
+    "image": "https://placehold.co/600x400"
+  },
+  {
+    "id": 7,
+    "name": "Blueberry Cream Cheese Croissant",
+    "category": "pastries",
+    "price": 3.0,
+    "image": "https://placehold.co/600x400"
+  },
+  {
+    "id": 8,
+    "name": "Raisin Croissant",
+    "category": "pastries",
+    "price": 3.0,
+    "image": "https://placehold.co/600x400"
+  },
+  {
+    "id": 9,
+    "name": "Cinnamon Twist",
+    "category": "pastries",
+    "price": 3.0,
+    "image": "https://placehold.co/600x400"
+  },
+  {
+    "id": 10,
+    "name": "Mini Croissant",
+    "category": "pastries",
+    "price": 1.0,
+    "image": "https://placehold.co/600x400"
+  },
+  {
+    "id": 11,
+    "name": "Strudel",
+    "category": "pastries",
+    "price": 2.0,
+    "image": "https://placehold.co/600x400"
+  },
+  {
+    "id": 12,
+    "name": "Almond Bear Claw Croissant",
+    "category": "pastries",
+    "price": 3.0,
     "image": "https://placehold.co/600x400"
   }
 ]

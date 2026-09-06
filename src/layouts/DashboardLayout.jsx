@@ -38,7 +38,7 @@ function DashboardLayout({ children }) {
           <section className="flex-1 min-w-0 pl-2 pr-2">
             <ProductList />
           </section>
-          <section className="w-80 shrink-0">
+          <section className="w-80 h-full shrink-0">
             <Cart />
           </section>
         </div>
