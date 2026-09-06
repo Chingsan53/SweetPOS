@@ -18,7 +18,7 @@ function ProductCard({ product, onClick }) {
 
       {/* Content */}
       <div className="p-4">
-        <h3 className="text-xl leading-tight font-bold text-[#10233f]">
+        <h3 className="text-[14.3px] leading-tight font-bold text-[#10233f] xl:text-[16.3px]">
           {product.name}
         </h3>
 
@@ -28,11 +28,11 @@ function ProductCard({ product, onClick }) {
 
         {/* Bottom row */}
         <div className="mt-8 flex items-center justify-between">
-          <p className="text-lg font-bold text-[#10233f]">
+          <p className="text-[14] font-bold text-[#10233f]">
             ${product.price.toFixed(2)}
           </p>
 
-          <span className="rounded-2xl bg-[#f45145] px-5 py-3 text-lg font-bold text-white">
+          <span className="rounded-2xl bg-[#f45145] px-5 py-3 text-[14] font-bold text-white">
             Add
           </span>
         </div>

@@ -2,6 +2,7 @@ import Header from "../components/Header/Header";
 import ProductList from "../components/ProductList/ProductList";
 import { BuildingLibraryIcon } from "@heroicons/react/24/outline";
 import { BuildingStorefrontIcon } from "@heroicons/react/24/solid";
+import Cart from "../Pages/POS/Cart";
 
 function DashboardLayout({ children }) {
   return (
@@ -21,13 +22,16 @@ function DashboardLayout({ children }) {
 
         <div className="w-full flex flex-col gap-2 md:flex-row">
           {/* Navigation Header */}
-          <aside className="w-56 shrink-0">
+          <aside className="w-72 shrink-0">
             <Header />
           </aside>
 
           {/* Products */}
           <section className="flex-1 min-w-0">
             <ProductList />
+          </section>
+          <section className="w-96 shrink-0">
+            <Cart />
           </section>
         </div>
 
