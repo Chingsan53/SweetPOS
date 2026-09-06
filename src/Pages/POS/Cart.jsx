@@ -1,7 +1,7 @@
 import { ShoppingBagIcon } from "@heroicons/react/24/outline";
 function Cart() {
   return (
-    <div className="flex h-full w-full flex-col rounded-[40px] bg-itemized p-9">
+    <div className="flex h-full w-full flex-col rounded-2xl bg-itemized p-9">
       {/* Header */}
       <div className="flex items-start justify-between">
         <div className="flex flex-col">

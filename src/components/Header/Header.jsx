@@ -2,7 +2,7 @@ import HeaderMenu from "../StoreFront/HeaderMenu";
 
 function Header() {
   return (
-    <header className="w-full flex items-center px-6">
+    <header className="w-full flex items-center">
       <HeaderMenu />
     </header>
   );

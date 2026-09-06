@@ -2,7 +2,7 @@ import { Squares2X2Icon } from "@heroicons/react/24/outline";
 import { Croissant, Sandwich, Donut, CupSoda } from "lucide-react";
 function HeaderMenu() {
   return (
-    <div className="w-full rounded-xl p-6 bg-secondary flex flex-col gap-4">
+    <div className="w-full rounded-2xl p-6 bg-secondary flex flex-col gap-4">
       <div className="mb-8 font-dm text-2xl font-bold text-white">
         Categories
       </div>
