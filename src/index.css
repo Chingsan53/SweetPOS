@@ -1,5 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fredoka:wght@300..700&family=Varela+Round&display=swap");
+
 @import "tailwindcss";
 
 @theme {
   --color-secondary: #173252;
+  --color-itemized: #fffaf0;
+  --color-mainBackground: #10223b;
+  --color-subText: #718096;
+  --color-activeButton: #ff788d;
+  --color-menuBackground: #f4f0e8;
+
+  --font-dm: "DM Sans", sans-serif;
+  --font-fredoka: "Fredoka", sans-serif;
+  --font-varela: "Varela Round", sans-serif;
 }
