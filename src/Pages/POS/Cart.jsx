@@ -1,5 +1,7 @@
+import { useNavigate } from "react-router-dom";
 import { ShoppingBagIcon } from "@heroicons/react/24/outline";
 function Cart() {
+  const navigate = useNavigate();
   return (
     <div className="flex h-full w-full flex-col rounded-2xl bg-itemized p-9">
       {/* Header */}
@@ -23,11 +25,11 @@ function Cart() {
       {/* Empty Cart */}
       <div className="flex flex-1 flex-col items-center justify-center text-center">
         {/* Icon */}
-        <div className="flex size-12 items-center justify-center rounded-full bg-[#fff0f0]">
+        <div className="flex mt-4 size-12 items-center justify-center rounded-full bg-[#fff0f0]">
           <ShoppingBagIcon className="size-6 text-activeButton" />
         </div>
 
-        <h3 className="mt-7 font-dm text-lg font-bold text-[#10223b]">
+        <h3 className="mt-4 font-dm text-lg font-bold text-[#10223b]">
           Your cart is empty
         </h3>
 
@@ -82,8 +84,8 @@ function Cart() {
 
         <button
           type="button"
-          disabled
-          className="flex h-20 flex-[2] items-center justify-center rounded-[22px] bg-[#f7b3a7] font-dm text-xl font-bold text-white"
+          onClick={() => navigate("/checkout")}
+          className="flex h-20 flex-[2] items-center justify-center rounded-[22px] bg-activeButton font-dm text-xl font-bold text-white cursor-pointer"
         >
           Checkout
         </button>
