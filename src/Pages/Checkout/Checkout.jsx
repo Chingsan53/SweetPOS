@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import PersonalDetail from "./PersonalDetail";
 
 function Checkout() {
   const navigate = useNavigate();
@@ -11,7 +12,10 @@ function Checkout() {
       >
         Back
       </button>
-      <h1>This is the checkout page with all payment and personal info</h1>
+
+      <div className="flex flex-row">
+        <PersonalDetail />
+      </div>
     </div>
   );
 }
