@@ -4,7 +4,7 @@ import PersonalDetail from "./PersonalDetail";
 function Checkout() {
   const navigate = useNavigate();
   return (
-    <div>
+    <div className="bg-mainBackground">
       <button
         type="button"
         onClick={() => navigate(-1)}
